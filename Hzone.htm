@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H-ZONE Real Estate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <div class="logo">H-Z<span>ONE</span></div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home" class="nav-item">Home</a></li>
+            <li><a href="properties.html" class="nav-item">Properties</a></li>
+            <li><a href="About.html" class="nav-item">About</a></li>
+            <li><a href="CONTACT US.html" class="nav-item">Contact</a></li>
+            <li><a href="#sell" class="nav-item">Sell</a></li>
+            <li><a href="rent" class="nav-item">rent</a></li>
+            <button class="btnlogin-popup">login</button>
+        </ul>
+        <button class="menu-toggle" id="menuToggle">&#9776;</button>
+    </nav>
+</header>
+
+<div class="wrapper">
+    <span class="icon-close"><ion-icon name="close"></ion-icon></span>
+
+   <div class="form-box login">
+      <h2>login</h2>
+      <form action="#">
+          <div class="input-box">
+              <span class="icon"><ion-icon name="mail"></ion-icon></span>
+              <input type="email" required>
+              <label>Email</label>
+          </div>
+          <div class="input-box">
+              <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+              <input type="password" required>
+              <label>password</label>
+          </div>
+          <div class="remember-forgot">
+              <label><input type="checkbox">remember me</label>
+              <a href="#">forgot password?</a>
+          </div>
+          <button type="submit" class="btn">login</button>
+          <div class="login-register">
+              <p>don't have an account? <a href="#"
+              class="register-link">Register</a></p>
+          </div>
+      </form>
+   </div>
+
+   <div class="form-box register">
+      <h2>Register</h2>
+      <form action="#">
+          <div class="input-box">
+              <span class="icon"><ion-icon name="people"></ion-icon></span>
+              <input type="text" required>
+              <label>Userename</label>
+          </div>
+          <div class="input-box">
+              <span class="icon"><ion-icon name="mail"></ion-icon></span>
+              <input type="email" required>
+              <label>Email</label>
+          </div>
+          <div class="input-box">
+              <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+              <input type="password" required>
+              <label>password</label>
+          </div>
+          <div class="remember-forgot">
+              <label><input type="checkbox" required>I agree terms and condition</label>
+          </div>
+          <button type="submit" class="btn">Register</button>
+          <div class="login-register">
+              <p>I already have an account? <a href="#"
+              class="login-link">login</a></p>
+          </div>
+      </form>
+   </div>
+ </div> 
+
+
+<section class="hero" id="home">
+    <h1>Find Your Dream Home with H-ZONE</h1>
+    <input type="text" id="propertySearch" placeholder="Search properties...">
+</section>
+
+<section class="featured" id="properties">
+    <h2>Featured Properties</h2>
+    <div class="card-container" id="cardContainer">
+        <div class="card" data-type="family">
+            <img src="c:\Users\WEGO\Desktop\MY PROJECT\h6.jpg" alt="House 1">
+            <h3>Modern Family Home</h3>
+            <p>$500,000 • 4 Beds • 3 Baths</p>
+        </div>
+        <div class="card" data-type="luxury">
+            <img src="c:\Users\WEGO\Desktop\MY PROJECT\h5.jpg" alt="House 2">
+            <h3>Luxury Villa</h3>
+            <p>$1,200,000 • 5 Beds • 4 Baths</p>
+        </div>
+        <div class="card" data-type="apartment">
+            <img src="c:\Users\WEGO\Desktop\MY PROJECT\h4.jpg" alt="House 3">
+            <h3>Cozy Apartment</h3>
+            <p>$300,000 • 2 Beds • 1 Bath</p>
+        </div>
+        <div class="card" data-type="family">
+            <img src="c:\Users\WEGO\Desktop\MY PROJECT\h3.jpg" alt="House 4">
+            <h3>Spacious Suburban House</h3>
+            <p>$650,000 • 4 Beds • 2 Baths</p>
+        </div>
+    </div>
+</section>
+
+<section class="about" id="about">
+    <h2>About H-ZONE</h2>
+    <p>We specialize in connecting you with the best homes in your area. Our experienced team ensures you find a property that matches your needs and lifestyle.</p>
+</section>
+
+<section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <textarea id="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<footer>
+    <p>© 2025 H-ZONE. All rights reserved.</p>
+    <p>&COPY; House-Zone</p>
+    <p>&dollar; Eliel is very rich</p>
+    <p>&euro; all type of currency</p>
+    <p>&yen; bellamy  is very very kinda  rich</p>
+</footer>
+
+<script src="script.js"></script> 
+
+</body>
+</html>
